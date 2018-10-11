@@ -49,12 +49,13 @@
         tools:layout_editor_absoluteY="307dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_registrarse"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
+        android:onClick="@string/activity_inicio_reg"
         android:text="Registrarse"
         tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="427dp" />
+        tools:layout_editor_absoluteY="430dp" />
 
     <EditText
         android:id="@+id/editText3"

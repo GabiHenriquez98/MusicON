@@ -28,7 +28,7 @@
     </android.support.v7.widget.RecyclerView>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_mimusica"
         android:layout_width="139dp"
         android:layout_height="36dp"
         android:text="Mi Musica"
@@ -36,7 +36,7 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn_playlist"
         android:layout_width="141dp"
         android:layout_height="39dp"
         android:text="Mis Playlist"
@@ -44,7 +44,7 @@
         tools:layout_editor_absoluteY="36dp" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn_canciones"
         android:layout_width="142dp"
         android:layout_height="36dp"
         android:text="Canciones"
@@ -52,7 +52,7 @@
         tools:layout_editor_absoluteY="75dp" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btn_subidas"
         android:layout_width="141dp"
         android:layout_height="37dp"
         android:text="Mis Subidas"
@@ -60,14 +60,16 @@
         tools:layout_editor_absoluteY="111dp" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btn_configuraciones"
         android:layout_width="141dp"
         android:layout_height="36dp"
+        android:onClick="@string/activity_configuraciones"
         android:text="Configuracion"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="148dp" />
 
     <SearchView
+        android:id="@+id/btn_buscar"
         android:layout_width="46dp"
         android:layout_height="53dp"
         app:layout_constraintTop_toTopOf="parent"

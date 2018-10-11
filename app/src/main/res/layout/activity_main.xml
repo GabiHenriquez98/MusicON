@@ -54,9 +54,10 @@
     Creacion del boton
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_ingresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="@string/Usuario"
         android:text="Ingresar"
         tools:layout_editor_absoluteX="144dp"
         tools:layout_editor_absoluteY="287dp" />
@@ -70,11 +71,12 @@
         tools:layout_editor_absoluteY="348dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_registrate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="@string/Registro"
         android:text="Registrate"
         tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="388dp" />
+        tools:layout_editor_absoluteY="393dp" />
 
 </android.support.constraint.ConstraintLayout>
